@@ -49,7 +49,7 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         return;
     }
 
-    const damageItems = [];
+    const targets = [];
     let heroes = 0;
     let enemies = 0;
     for (const selectedItem of selected) {
@@ -60,10 +60,10 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
             return;
         }
 
-        const damageItem = new DamageItem(item);
-        damageItems.push(damageItem);
+        const target = new DamageItem(item);
+        targets.push(target);
 
-        if (damageItem.isHero) {
+        if (target.isHero) {
             heroes++;
         } else {
             enemies++;
@@ -74,9 +74,9 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
     let attacker = null;
 
     if (heroes === 0 || enemies === 0) {
-        attacker = damageItems.shift();
+        attacker = targets.shift();
     } else if (isPlayerToEnemy) {
-        damageItems.sort((x, y) => {
+        targets.sort((x, y) => {
             if (x.isHero === y.isHero) {
                 return x.name.localeCompare(y.name);
             }
@@ -88,10 +88,10 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
             return 1;
         });
 
-        attacker = damageItems.shift();
+        attacker = targets.shift();
         log(`Sorting by player to enemy. Attacker is: ${attacker.name}`);
     } else {
-        damageItems.sort((x, y) => {
+        targets.sort((x, y) => {
             if (x.isHero === y.isHero) {
                 return x.name.localeCompare(y.name);
             }
@@ -103,14 +103,15 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
             return -1;
         });
 
-        attacker = damageItems.shift();
+        attacker = targets.shift();
         log(`Sorting by enemy to player. Attacker is: ${attacker.name}`);
     }
 
-    for (const damageItem of damageItems) {
-        const name = damageItem.name;
-        const hpCurrent = damageItem.hp;
-        const armorCurrent = damageItem.armor;
+    for (const target of targets) {
+        const name = target.name;
+        const hpCurrent = target.hp;
+        const armorPristine = target.armor;
+        let armorCurrent = target.armor;
 
         if (!_.isNumber(hpCurrent)) {
             sendChatPlayer(value, `Targets (${name}) current hp is not a number! ${hpCurrent}`);
@@ -123,44 +124,65 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         }
 
         if (hpCurrent <= 0) {
-            sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]], but they are already dead!`);
+            attacker.sendHitText(`hits ${name}, but they are already dead!`);
             continue;
+        }
+
+        if (!isRanged) {
+            armorCurrent = Math.ceil(armorCurrent/2);
         }
 
         if (damageValue > armorCurrent) {
-            damageItem.armorCurrent--;
+            target.armor--;
         }
 
         const hitValue = Math.max(0, damageValue - armorCurrent);
-        if (hitValue === 0) {
-            sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]], but their armor [[${armorCurrent}]] stops it!`);    
-            continue;
+        let hitValueText = ` for [[${hitValue}]] (🗡[[${damageValue}]] - 🛡[[${armorCurrent}]])`;
+        if (!target.isHero) {
+            hitValueText = "";
         }
 
-        let reducedText = '';
-        if (hitValue < damageValue) {
-            reducedText = '(reduced)';
+        if (hitValue === 0) {
+            attacker.sendHitText(`hits ${name}${hitValueText}, but their 🛡 stops it!`);    
+            continue;
         }
         
         const newHp = Math.max(0, hpCurrent - hitValue);
-        damageItem.hp = newHp;
+        target.hp = newHp;
 
         if (newHp === 0) {
-            sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]], killing them!`);
+            attacker.sendHitText(`hits ${name}${hitValueText}, killing them!`);
             continue;
         }
 
-        sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]]${reducedText}, new hp: [[${newHp}]], new armor: [[${damageItem.armor}]]!`);
+        let updateText = ` ♥[[${hpCurrent}]]➡[[${newHp}]] 🛡[[${armorPristine}]]➡[[${target.armor}]]`;
+        if (!target.isHero) {
+            updateText = "";
+        }
+
+        if (!target.isHero) {
+            if (hitValue <= 5) {
+                hitValueText = ", dealing some damage";
+            } else if (hitValue <= 10) {
+                hitValueText = ", dealing solid damage";
+            } else {
+                hitValueText = ", dealing massive damage";
+            }
+        }
+
+        attacker.sendHitText(`hits ${name}${hitValueText}!${updateText}`);
     }
 }
 
 class DamageItem {
     constructor (graphic) {
         this.graphic = graphic;
+        log(graphic.get("statusmarkers"));
 
         const characterId = graphic.get("represents");
         this.isHero = characterId && getAttrByName(characterId, "hero") === "1";
         this.isHero = !!this.isHero;
+        this.characterId = characterId;
 
         this.name = graphic.get("name");
     }
@@ -168,5 +190,27 @@ class DamageItem {
     get armor() { return parseInt(this.graphic.get("bar2_value")); }
     set armor(value) { this.graphic.set("bar2_value", value); }
     get hp() { return parseInt(this.graphic.get("bar1_value")); }
-    set hp(value) { this.graphic.set("bar1_value", value); }
+    set hp(value) { 
+        this.graphic.set("bar1_value", value);
+
+        if (value > 0) {
+            return;
+        }
+
+        const markers = this.graphic.get("statusmarkers");
+        if (markers.includes("dead")) {
+            return;
+        }
+
+        this.graphic.set("statusmarkers", markers + ",dead");
+    }
+
+    sendHitText (text) {
+        if (this.characterId) {
+            sendChatCharacter(this.characterId, "/em " + text);
+            return;
+        }
+
+        sendChat(this.name, `/em ${text}`);
+    }
 }
