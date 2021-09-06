@@ -158,7 +158,16 @@ on("chat:message", function (value) {
         return;
     }
     
-    const content = value.content;
+    const args = value.content.split(' ');
+    // const command = args.shift().substring(1);
+    const content = args.shift();
+    const extracommand = args.shift();
+    
+    if (content === "!damage") {
+        dealDamage(value);
+        return;
+    }
+    
     if (content === "!critbody") {
         log("Rolling body crit");
         rollAndDisplayCritBody();
