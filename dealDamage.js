@@ -1,4 +1,4 @@
-function dealDamage(value) {
+function dealDamage(value, isPlayerToEnemy, isRanged) {
     const selected = value.selected;
     
     if (!selected) {
@@ -48,30 +48,69 @@ function dealDamage(value) {
         sendChatPlayer(value, `Damage value is not a number! (${damageValue})`);
         return;
     }
-    
-    const attacker = getObj('graphic', selected.shift()._id);
-    if (!attacker) {
-        sendChatPlayer(value, "Could not find the attacker!");
-        return;
-    }
 
-    const attackerName = attacker.attributes.name;
+    const damageItems = [];
+    let heroes = 0;
+    let enemies = 0;
+    for (const selectedItem of selected) {
+        const item = getObj('graphic', selectedItem._id);
 
-    for (const targetSelected of selected) {
-        const targetGraphic = getObj('graphic', targetSelected._id);
-
-        if (!targetGraphic){
-            sendChatPlayer(value, "Could not find one of the targets!");
+        if (!item) {
+            sendChatPlayer(value, "Could not find a graphic of the selected items!");
             return;
         }
 
-        // log(targetGraphic);
-        // log(Object.getOwnPropertyNames(targetGraphic));
-        // log(targetGraphic.attributes);
-        // log("NAME: " + targetGraphic.get('name'));
-        const name = targetGraphic.attributes.name;
-        const hpCurrent = targetGraphic.attributes.bar1_value;
-        const armorCurrent = targetGraphic.attributes.bar2_value;
+        const damageItem = new DamageItem(item);
+        damageItems.push(damageItem);
+
+        if (damageItem.isHero) {
+            heroes++;
+        } else {
+            enemies++;
+        }
+    }
+
+    log(`Heroes: ${heroes}, Enemies: ${enemies}`);
+    let attacker = null;
+
+    if (heroes === 0 || enemies === 0) {
+        attacker = damageItems.shift();
+    } else if (isPlayerToEnemy) {
+        damageItems.sort((x, y) => {
+            if (x.isHero === y.isHero) {
+                return x.name.localeCompare(y.name);
+            }
+
+            if (x.isHero) {
+                return -1;
+            }
+
+            return 1;
+        });
+
+        attacker = damageItems.shift();
+        log(`Sorting by player to enemy. Attacker is: ${attacker.name}`);
+    } else {
+        damageItems.sort((x, y) => {
+            if (x.isHero === y.isHero) {
+                return x.name.localeCompare(y.name);
+            }
+
+            if (x.isHero) {
+                return 1;
+            }
+
+            return -1;
+        });
+
+        attacker = damageItems.shift();
+        log(`Sorting by enemy to player. Attacker is: ${attacker.name}`);
+    }
+
+    for (const damageItem of damageItems) {
+        const name = damageItem.name;
+        const hpCurrent = damageItem.hp;
+        const armorCurrent = damageItem.armor;
 
         if (!_.isNumber(hpCurrent)) {
             sendChatPlayer(value, `Targets (${name}) current hp is not a number! ${hpCurrent}`);
@@ -84,22 +123,17 @@ function dealDamage(value) {
         }
 
         if (hpCurrent <= 0) {
-            sendChatPlayer(value, `${attackerName} hits ${name} for ${damageValue}, but they are already dead!`);
+            sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]], but they are already dead!`);
             continue;
         }
 
         if (damageValue > armorCurrent) {
-            // log(`${damageValue} > ${armorCurrent} = armor ablated`);
-            targetGraphic.set('bar2_value', armorCurrent-1);
-            // targetGraphic.attributes.bar2_value--;
+            damageItem.armorCurrent--;
         }
 
-        log(`${damageValue} - ${armorCurrent} = ${damageValue - armorCurrent}`);
         const hitValue = Math.max(0, damageValue - armorCurrent);
-        
-        log(`Hit value: ${hitValue}`);
         if (hitValue === 0) {
-            sendChatPlayer(value, `${attackerName} hits ${name} for ${damageValue}, but their armor (${armorCurrent}) stops it!`);    
+            sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]], but their armor [[${armorCurrent}]] stops it!`);    
             continue;
         }
 
@@ -109,13 +143,30 @@ function dealDamage(value) {
         }
         
         const newHp = Math.max(0, hpCurrent - hitValue);
-        targetGraphic.set('bar1_value', newHp);
+        damageItem.hp = newHp;
 
         if (newHp === 0) {
-            sendChatPlayer(value, `${attackerName} hits ${name} for ${damageValue}, killing them!`);
+            sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]], killing them!`);
             continue;
         }
 
-        sendChatPlayer(value, `${attackerName} hits ${name} for ${damageValue}${reducedText}, new hp: ${newHp}, new armor: ${targetGraphic.attributes.bar2_value}!`);
+        sendChatPlayer(value, `${attacker.name} hits ${name} for [[${damageValue}]]${reducedText}, new hp: [[${newHp}]], new armor: [[${damageItem.armor}]]!`);
     }
+}
+
+class DamageItem {
+    constructor (graphic) {
+        this.graphic = graphic;
+
+        const characterId = graphic.get("represents");
+        this.isHero = characterId && getAttrByName(characterId, "hero") === "1";
+        this.isHero = !!this.isHero;
+
+        this.name = graphic.get("name");
+    }
+    
+    get armor() { return parseInt(this.graphic.get("bar2_value")); }
+    set armor(value) { this.graphic.set("bar2_value", value); }
+    get hp() { return parseInt(this.graphic.get("bar1_value")); }
+    set hp(value) { this.graphic.set("bar1_value", value); }
 }

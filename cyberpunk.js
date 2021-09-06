@@ -14,12 +14,15 @@ on("chat:message", function (value) {
     }
     
     const args = value.content.split(' ');
-    // const command = args.shift().substring(1);
     const content = args.shift();
-    const extracommand = args.shift();
     
     if (content === "!damage") {
-        dealDamage(value);
+        if (args.length !== 3) {
+            sendChatPlayer(value, `Wrong number of args to damage! [${args.join(', ')}]`);
+            return;
+        }
+
+        dealDamage(value, args[1] === "true", args[2] === "true");
         return;
     }
     
