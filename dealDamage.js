@@ -42,7 +42,6 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         return;
     }
 
-    // log(inlineRolls[0]);
     const damageValue = inlineRolls[0].results.total;
     if (!_.isNumber(damageValue)) {
         sendChatPlayer(value, `Damage value is not a number! (${damageValue})`);
@@ -70,7 +69,6 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         }
     }
 
-    log(`Heroes: ${heroes}, Enemies: ${enemies}`);
     let attacker = null;
 
     if (heroes === 0 || enemies === 0) {
@@ -89,7 +87,6 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         });
 
         attacker = targets.shift();
-        log(`Sorting by player to enemy. Attacker is: ${attacker.name}`);
     } else {
         targets.sort((x, y) => {
             if (x.isHero === y.isHero) {
@@ -104,7 +101,6 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         });
 
         attacker = targets.shift();
-        log(`Sorting by enemy to player. Attacker is: ${attacker.name}`);
     }
 
     for (const target of targets) {
@@ -137,7 +133,7 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         }
 
         const hitValue = Math.max(0, damageValue - armorCurrent);
-        let hitValueText = ` for [[${hitValue}]] (🗡[[${damageValue}]] - 🛡[[${armorCurrent}]])`;
+        let hitValueText = ` for [[${hitValue}]]`;
         if (!target.isHero) {
             hitValueText = "";
         }
@@ -149,13 +145,15 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
         
         const newHp = Math.max(0, hpCurrent - hitValue);
         target.hp = newHp;
+        const attackType = isRanged ? "ranged" : "melee";
+        log(`Setting ${target.name}'s hp to ${newHp} from ${hpCurrent} after a ${attackType} hit of raw value ${damageValue} and raw armor ${armorPristine}`);
 
         if (newHp === 0) {
             attacker.sendHitText(`hits ${name}${hitValueText}, killing them!`);
             continue;
         }
 
-        let updateText = ` ♥[[${hpCurrent}]]➡[[${newHp}]] 🛡[[${armorPristine}]]➡[[${target.armor}]]`;
+        let updateText = `<br>♥➡[[${newHp}]] 🛡➡[[${target.armor}]]`;
         if (!target.isHero) {
             updateText = "";
         }
@@ -177,7 +175,6 @@ function dealDamage(value, isPlayerToEnemy, isRanged) {
 class DamageItem {
     constructor (graphic) {
         this.graphic = graphic;
-        log(graphic.get("statusmarkers"));
 
         const characterId = graphic.get("represents");
         this.isHero = characterId && getAttrByName(characterId, "hero") === "1";
