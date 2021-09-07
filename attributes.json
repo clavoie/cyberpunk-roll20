@@ -1,0 +1,988 @@
+[
+    {
+        "name": "role",
+        "current": "Media",
+        "max": "",
+        "_id": "-M_RolEOKxAxCAzdL5an",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "role_media",
+        "current": "5",
+        "max": "",
+        "_id": "-M_Rom48bW9ALQETpzrR",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_int",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RowaU8yfBPgnhZRXH",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_ref",
+        "current": "8",
+        "max": "",
+        "_id": "-M_RowppB7s-xvmdfcxI",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_dex",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RoxPFlgJJJUdyvi7n",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_tech",
+        "current": "4",
+        "max": "",
+        "_id": "-M_RoxyQIDhsiy2mud9s",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_cool",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RoyJDZmEpHOAp1zu3",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_will",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RoyuLtb1TSKEK6nhv",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "hp",
+        "current": "25",
+        "max": "40",
+        "_id": "-M_RoywQqGUTKEfyUNfc",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "seriouslywounded",
+        "current": 20,
+        "max": "",
+        "_id": "-M_RoywTkJaVXv9vRP9O",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "deathsave",
+        "current": 6,
+        "max": "",
+        "_id": "-M_RoywViTpvqDl9yqea",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "deathsavehack",
+        "current": 5,
+        "max": "",
+        "_id": "-M_RoywXFujAXexHWKrb",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "damageserious",
+        "current": "0",
+        "max": "",
+        "_id": "-M_RoyyBa45XeFPXAWfx",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "damagemortal",
+        "current": "0",
+        "max": "",
+        "_id": "-M_RoyyDncnwDiUBWshm",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "finalmodifier",
+        "current": "0",
+        "max": "",
+        "_id": "-M_Roz-0EHEe3sQNazq7",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "finalmodifierdisplay",
+        "current": " ",
+        "max": "",
+        "_id": "-M_Roz0ghvq4xdmz6wIN",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_luck",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RozV6AlvvnqaKU0zh",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "luck",
+        "current": 6,
+        "max": 6,
+        "_id": "-M_RozWk3tLMHYfjENGA",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_move",
+        "current": "5",
+        "max": "",
+        "_id": "-M_Rozs73RWySdB_aJ7J",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_body",
+        "current": "6",
+        "max": "",
+        "_id": "-M_Rp-enEs_4xWn3-ElH",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "stat_emp",
+        "current": "5",
+        "max": "",
+        "_id": "-M_Rp03qfzh4JOe4Raq6",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "humanity",
+        "current": "28",
+        "max": 50,
+        "_id": "-M_Rp05dr6CfmvkNKrCs",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "empathy",
+        "current": 2,
+        "max": 5,
+        "_id": "-M_Rp05g4_IkK43UcLnP",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_conversation",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RpX8M8Vj19iyYycQk",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_evasion",
+        "current": "7",
+        "max": "",
+        "_id": "-M_RpYN2R8lsEFYiY0Pu",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_humanperception",
+        "current": "6",
+        "max": "",
+        "_id": "-M_RpatXQniLMWoM0c3b",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_perception",
+        "current": "6",
+        "max": "",
+        "_id": "-M_Rpdgsmj_R9NhaWsQt",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_languages_-MZRpdtfxJCeRZp68EFE_skillname",
+        "current": "Streetslang",
+        "max": "",
+        "_id": "-M_RphJJ92P8RcDt6kt9",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_languages_-MZRpdtfxJCeRZp68EFE_skillvalue",
+        "current": "2",
+        "max": "",
+        "_id": "-M_RpiSVEeFLGE1Xp8VN",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_localexperts_-MZRpiUCAMyxKTrCnSY2_skillname",
+        "current": "Your Home",
+        "max": "",
+        "_id": "-M_RplLCwRRM_EANnSvv",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_localexperts_-MZRpiUCAMyxKTrCnSY2_skillvalue",
+        "current": "2",
+        "max": "",
+        "_id": "-M_Rpm0McE1GO6fdKx89",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_localexperts_-MZRpm9wpwVIksWl8IaP_skillname",
+        "current": "Hatian",
+        "max": "",
+        "_id": "-M_RpoMWOcltHOj0Oiq8",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_localexperts_-MZRpm9wpwVIksWl8IaP_skillvalue",
+        "current": "4",
+        "max": "",
+        "_id": "-M_RpvRIEXni4FQ-erGX",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_persuasion",
+        "current": "6",
+        "max": "",
+        "_id": "-M_Rq1I4-stk5kDtwU_4",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_bribery",
+        "current": "6",
+        "max": "",
+        "_id": "-M_Rq30W1tZYdZNQi0eN",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_composition",
+        "current": "6",
+        "max": "",
+        "_id": "-M_Rq4F5TIlepdISEMng",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_deduction",
+        "current": "6",
+        "max": "",
+        "_id": "-M_Rq5oHpR792BujC1NS",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_handgun",
+        "current": "7",
+        "max": "",
+        "_id": "-M_Rq6y4XbVNvYp7Ios6",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_librarysearch",
+        "current": "4",
+        "max": "",
+        "_id": "-M_Rq9hz9jDb7czu-2qR",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_lipreading",
+        "current": "4",
+        "max": "",
+        "_id": "-M_RqB0FPrGMCk35Uw-9",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_photographyfilm",
+        "current": "4",
+        "max": "",
+        "_id": "-M_RqC5AxhMuPkoaNQtM",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_heavyweapons",
+        "current": "2",
+        "max": "",
+        "_id": "-M_RqCVEScmdDRQSR55B",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "skill_shoulderarms",
+        "current": "2",
+        "max": "",
+        "_id": "-M_RqJOtKAzqxN64QnR4",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "armorname",
+        "current": "Light Armorjack",
+        "max": "",
+        "_id": "-M_RqbgMiBfWVccFqqEL",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "armor",
+        "current": "7",
+        "max": "11",
+        "_id": "-M_Rqc-7nuZiWsin9evv",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "armorheadname",
+        "current": "Light Armorjack",
+        "max": "",
+        "_id": "-M_Rqd6FEqWOWfW2xKdQ",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "armorhead",
+        "current": "11",
+        "max": "11",
+        "_id": "-M_RqdEboTvZix1ZoCif",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponname",
+        "current": "Gravity",
+        "max": "",
+        "_id": "-M_RqfoZjEiaMuKSYXz3",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponskill",
+        "current": "@{skill_handgun}+@{stat_ref}",
+        "max": "",
+        "_id": "-M_RqfzM_9whS16sRMGD",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_weapons_-MZRqekKkKIHtPnZ8pap_weapondamage",
+        "current": "3",
+        "max": "",
+        "_id": "-M_RqgU_VFaG1uSZwPi5",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRqvk1VUUWkngQtW3f_gear_name",
+        "current": "Agent",
+        "max": "",
+        "_id": "-M_RqwQzOzoN8lN-0jXH",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRqvk1VUUWkngQtW3f_gear_desc",
+        "current": "Personal Computer & communication device",
+        "max": "",
+        "_id": "-M_RqyX7_iEGUQ9vXW7s",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRr-HeZZZBFftVDuab_gear_name",
+        "current": "Binoculars",
+        "max": "",
+        "_id": "-M_Rr0Z4JMv7ZDsnDtwW",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRr0erFUAXr1sEGBLc_gear_name",
+        "current": "Disposable Cellphone",
+        "max": "",
+        "_id": "-M_Rr3a8eyYcCqWY5PhN",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRr0erFUAXr1sEGBLc_gear_desc",
+        "current": "2x",
+        "max": "",
+        "_id": "-M_Rr4PtSQpW2g3Hth0o",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRr6DKVOkcr3n8J8Ws_gear_name",
+        "current": "Flashlight",
+        "max": "",
+        "_id": "-M_Rr8Lvl6BhWMkr6tkE",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRr8VGWB15-2XBrvRp_gear_name",
+        "current": "Police Scanner",
+        "max": "",
+        "_id": "-M_Rr9amQoRo4lk1YjtB",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRrKmbTxKmHmtvYt0B_gear_name",
+        "current": "AV Scrambler",
+        "max": "",
+        "_id": "-M_RrOk1YVtnPy86Yha7",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRrXbeDLW69kLQYlIl_gear_name",
+        "current": "Cloths",
+        "max": "",
+        "_id": "-M_RrYDLVTKxjTFuaI1D",
+        "_type": "attribute",
+        "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+    },
+    {
+        "name": "repeating_gear_-MZRrXbeDLW69kLQYlIl_gear_desc",
+        "current":"Generic Chic: Footwear,
+Bottoms, Top
+Leisurewear: Jacket
+Urbanflash: Mirrorshades","max":"","_id":"-M_Rr_Rls56x_1-1QJKz","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"speedheal","current":2,"max":"3","_id":"-M_Rryrjt9MZk_V-qGaG","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsINhDOPq8Ad2KYyc_cyberwarename","current":"Cyberaudio Suite","max":"","_id":"-M_RsJ3tOLZuZLc__dJB","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsINhDOPq8Ad2KYyc_cyberwaredesc","current":"Has 3 Option Slots. Cannot install more than 1.","max":"","_id":"-M_RsJkCGXQSEPXip5OD","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsTnte2kpaMbnFXni_cyberwarename","current":"Audio Recorder","max":"","_id":"-M_RsUewhQwLYaj17mNx","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsTnte2kpaMbnFXni_cyberwaredesc","current":"Records audio to Memory Chip or linked Agent without the other party knowing.","max":"","_id":"-M_Rsg_nOdTQSg8IWI42","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsht723OMrJ1fmHkP_cyberwarename","current":"Bug Detector","max":"","_id":"-M_RsjnMjTPqF847Okwg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsht723OMrJ1fmHkP_cyberwaredesc","current":"Beeps when within 2m/yds of a listening device","max":"","_id":"-M_RtLTAKGDRpZEeJXR2","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtLnfyjZYJhQnCqpx_cyberwarename","current":"Cyberarm","max":"","_id":"-M_RtOFdmlGG3c3zVPlQ","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtLnfyjZYJhQnCqpx_cyberwaredesc","current":"Replacement arm. Has 4 Option Slots. Comes installed with Standard 
+Hand that doesn't cause Humanity Loss or take up an Option Slot","max":"","_id":"-M_RtRFXSVEPQoBaoYBz","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtVL3z0XvzGY6WtvS_cyberwarename","current":"Cord Mutual 300 Pacifier","max":"","_id":"-M_RtVoe10Z2i6hsjIHR","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtVL3z0XvzGY6WtvS_cyberwaredesc","current":"Monofilament whip implanted in the thumb. Can be concealed. DV 13 Stealth check to decapitate an unaware character from behind.","max":"","_id":"-M_RtaHdb0xpijvXG2AP","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberfashion_-MZRv0rwkMhxt3gfgs0Z_cyberwarename","current":"EMP Threading","max":"","_id":"-M_Rv2cj1DfX-4cUQdgN","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberfashion_-MZRv0rwkMhxt3gfgs0Z_cyberwaredesc","current":"Thin silver lines that run in circuit-like patterns across the body","max":"","_id":"-M_Rv8atS6LxANf3p9eJ","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRvVVGYegUeYjK-Qlq_cyberwarename","current":"Yang Su Mark IV","max":"","_id":"-M_RvWda_pF302tYQYsd","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRvVVGYegUeYjK-Qlq_cyberwaredesc","current":"Any Light, Medium, or Heavy Melee Weapon installed in a 
+Cyberarm. Weapon can be concealed even if not normally 
+concealable. Requires a Cyberarm and takes up 2 Option Slots.","max":"","_id":"-M_RvZEAukOp4FwMEQ8X","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponname","current":"Yang Su Mark IV","max":"","_id":"-M_RvfcKZ19cAtIvrrGd","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponshowmodifiers","current":"on","max":"","_id":"-M_RvfdVEAoEgCWrGLOb","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponmodifier","current":"2","max":"","_id":"-M_RvgDaYVkOB1ARC1J0","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weapondamagemod","current":"2","max":"","_id":"-M_RvgicVGH1kre8zABL","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponskill","current":"@{skill_meleeweapon
+        }+@{stat_dex
+        }","max":"","_id":"-M_RvhhGYdotCS0nofM9","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weapondamage","current":"2","max":"","_id":"-M_Rvi3-sEcufs25pXHa","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponrof","current":"2","max":"","_id":"-M_RviOWZqxwSz0I78-N","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponconcealable","current":"on","max":"","_id":"-M_RvicJVLNgdhe99Lay","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponnotes","current":"Internal blade concealed in left cyberarm","max":"","_id":"-M_RvnUlUgjMP-0XllFx","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponshowmodifiers","current":"on","max":"","_id":"-M_RvnWMIH-TpudEQID8","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponmodifier","current":"2","max":"","_id":"-M_RvondV782SpDMH9Gk","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weapondamagemod","current":"1","max":"","_id":"-M_Rvoz4SYCA_Po8gALb","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponammotype","current":"","max":"","_id":"-M_Rx1ZTDLRhftJLJVO8","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"cash","current":"495","max":"","_id":"-M_YbGnx7WRCvt6hzz7_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"ip","current":"10","max":"","_id":"-M_YbJkhNNb1nd3G55id","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"hidemodifiers","current":"0","max":"","_id":"-M_cDtTCmRVhBobfvWcO","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"initiativemodifier","current":"0","max":"","_id":"-M_cEA65QFlT0voc_bjE","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_tracking","current":"2","max":"","_id":"-MaBHAA61c3Ibblc3tA9","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_resisttorturedrugs","current":"2","max":"","_id":"-MaBHB6x4qK4hKWvKz3z","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_landvehicle","current":"1","max":"","_id":"-MaBHD6OjzKiWLdE1RJv","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_interrogation","current":"1","max":"","_id":"-MaBHGTf735IaNtOMdTf","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_meleeweapon","current":"4","max":"","_id":"-MaBHIl8OQv2iAiHQOCO","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_cybertech","current":"1","max":"","_id":"-MaBHLz4GqWl2jDfatQ_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MakV10sIwHrG0i-cBLF_cyberwarename","current":"Internal Agent","max":"","_id":"-MakV2BPhvVI-pms6fTB","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"nightorlowlight","current":"0","max":"","_id":"-Me7gTDj7RXdETDs2aJg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"neverdonebefore","current":"0","max":"","_id":"-Me7gTDlIwMUUmbAKFmg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"complextask","current":"0","max":"","_id":"-Me7gTDoMV34MuJnf3ZN","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"wrongtoolsorparts","current":"0","max":"","_id":"-Me7gTDpANIG_QCEkipT","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"understress","current":"0","max":"","_id":"-Me7gTDr0wsityjfxHEp","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"drunkdrugged","current":"0","max":"","_id":"-Me7gTDt_YpxXgVJhbtA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"secretly","current":"0","max":"","_id":"-Me7gTDvNcmqK4n5994f","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"obscured","current":"0","max":"","_id":"-Me7gTDxV4eTvgBNBkjm","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lostfacedown","current":"0","max":"","_id":"-Me7gTE2nZ8XEaOE1fR6","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"complimentaryskill","current":"0","max":"","_id":"-Me7gTE5f6NiwzKqrkdp","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"extratime","current":"0","max":"","_id":"-Me7gTE8pHRkSa8QuHmr","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"aimedshot","current":"0","max":"","_id":"-Me7gTEA8hbl3iZGKlT2","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"luckmod","current":"0","max":"","_id":"-Me7gTEDk5tibxuA03D_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"custommod","current":"0","max":"","_id":"-Me7gTEFCLPjfxXroukT","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lp_lifegoals","current":"Revenge - check
+Income - working on it
+Rep - working on it","max":"","_id":"-Me8AECPzvF8QBgO95AK","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lp_personality","current":"Independent, Aggressive","max":"","_id":"-Me8AIdq7mOvNPRJUND6","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lp_media","current":"Somebody killed my crew.  Same somebody is taking kibble out of my mouth.  Will. not. stand.","max":"","_id":"-Me8A_U0aQzVo2q9FHd1","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_ammo_-Me8Mn6c5J0OHvSQOD0Y_ammoname","current":"Smoke Grenade","max":"","_id":"-Me8Mq68aqZ0YyfCjKo2","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_ammo_-Me8Mn6c5J0OHvSQOD0Y_ammoquantity","current":"1","max":"","_id":"-Me8MqsjHNavp1UyHUG_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponname","current":"Smoke Grenade","max":"","_id":"-MeST0yUL84gL2OTUqeA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponskill","current":"@{skill_athletics
+        }+@{stat_dex
+        }","max":"","_id":"-MeST1EN6mlU0lzmWNMI","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponmagazine","current":"1","max":"","_id":"-MeST2Grm1Qx7sF3OSg_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponnotes","current":"No Damage. Creates a 5x5 area where no line of sight can be drawn through or inside.
+
+Lasts 3 rounds","max":"","_id":"-MeSTEmjZSH0l07LrI8Q","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSTgOeZEieEyAN2qCy_gear_name","current":"Hard Drive","max":"","_id":"-MeSTiIDjTsDOTuVnBnT","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSTgOeZEieEyAN2qCy_gear_desc","current":"1x taken from Jayde Wellington's basement","max":"","_id":"-MeSTl8Gw-7CCj_BFbE9","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSU0ZWiZ8zisItFeWD_gear_name","current":"Neck Chip","max":"","_id":"-MeSU1IiZi0q5uX0mzOA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSU0ZWiZ8zisItFeWD_gear_desc","current":"Taken from Null-G. Has a silver Ankh symbol ending in a dagger","max":"","_id":"-MeSU752NglJwHcPYKrH","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_brawling","current":"3","max":"","_id":"-MfAldtLFsxvgZWcyh_j","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_tactics","current":"1","max":"","_id":"-MfAli43IW1bWAcP4Tfg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponrof","current":"2","max":"","_id":"-MfosM1SFMY80KFp8KtC","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponnotes","current":" On Hit: target takes 1 point of damage directly to their HP and armor regardless of if the damage roll ablated the target's armor. 
+","max":"","_id":"-MfosX88dqOSocAwDz_T","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-Mfp2aDZsjLFqTHjmXun_gear_name","current":"Synthcoke","max":"","_id":"-Mfp2b3gEYfP4S6Srr30","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-Mfp2cEDrzzbi5JAKeN6_gear_name","current":"Black Lace Airhypo","max":"","_id":"-Mfp2dd_SouPokxKXs9I","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponname","current":"Flashbang","max":"","_id":"-Mfp2kc21ugjPrdVl50n","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponskill","current":"@{skill_athletics
+        }+@{stat_dex
+        }","max":"","_id":"-Mfp2lDjPZDXoxDOJW_6","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponmagazine","current":"1","max":"","_id":"-MgCg7v52D3YPTA3LMTF","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponnotes","current":"Hits in a 5x5 area centered on the thrown destination. Anyone in the area, friendly or not, must made a DV15 Resist Torture/Drugs check or suffer -2 to Ranged Attacks and Perception checks.
+","max":"","_id":"-MgCgEURVduNXdmI3jNA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmright_-MgCkUSm1h5DOWb6JESD_cyberwarename","current":"Subdermal Grip","max":"","_id":"-MgCkVnWnZs5896hptMo","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponautofire","current":"on","max":"","_id":"-MgCkxwrjDZ1kGV_zbBY","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponsuppress","current":"on","max":"","_id":"-MgCkyhAMDVBQkBHdmJC","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"hero","current":"1","max":"1","_id":"-MiwJNlFc_jKFJztamQa","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"}]
+[
+            {
+                "name": "role",
+                "current": "Media",
+                "max": "",
+                "_id": "-M_RolEOKxAxCAzdL5an",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "role_media",
+                "current": "5",
+                "max": "",
+                "_id": "-M_Rom48bW9ALQETpzrR",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_int",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RowaU8yfBPgnhZRXH",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_ref",
+                "current": "8",
+                "max": "",
+                "_id": "-M_RowppB7s-xvmdfcxI",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_dex",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RoxPFlgJJJUdyvi7n",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_tech",
+                "current": "4",
+                "max": "",
+                "_id": "-M_RoxyQIDhsiy2mud9s",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_cool",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RoyJDZmEpHOAp1zu3",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_will",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RoyuLtb1TSKEK6nhv",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "hp",
+                "current": "25",
+                "max": "40",
+                "_id": "-M_RoywQqGUTKEfyUNfc",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "seriouslywounded",
+                "current": 20,
+                "max": "",
+                "_id": "-M_RoywTkJaVXv9vRP9O",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "deathsave",
+                "current": 6,
+                "max": "",
+                "_id": "-M_RoywViTpvqDl9yqea",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "deathsavehack",
+                "current": 5,
+                "max": "",
+                "_id": "-M_RoywXFujAXexHWKrb",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "damageserious",
+                "current": "0",
+                "max": "",
+                "_id": "-M_RoyyBa45XeFPXAWfx",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "damagemortal",
+                "current": "0",
+                "max": "",
+                "_id": "-M_RoyyDncnwDiUBWshm",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "finalmodifier",
+                "current": "0",
+                "max": "",
+                "_id": "-M_Roz-0EHEe3sQNazq7",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "finalmodifierdisplay",
+                "current": " ",
+                "max": "",
+                "_id": "-M_Roz0ghvq4xdmz6wIN",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_luck",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RozV6AlvvnqaKU0zh",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "luck",
+                "current": 6,
+                "max": 6,
+                "_id": "-M_RozWk3tLMHYfjENGA",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_move",
+                "current": "5",
+                "max": "",
+                "_id": "-M_Rozs73RWySdB_aJ7J",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_body",
+                "current": "6",
+                "max": "",
+                "_id": "-M_Rp-enEs_4xWn3-ElH",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "stat_emp",
+                "current": "5",
+                "max": "",
+                "_id": "-M_Rp03qfzh4JOe4Raq6",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "humanity",
+                "current": "28",
+                "max": 50,
+                "_id": "-M_Rp05dr6CfmvkNKrCs",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "empathy",
+                "current": 2,
+                "max": 5,
+                "_id": "-M_Rp05g4_IkK43UcLnP",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_conversation",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RpX8M8Vj19iyYycQk",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_evasion",
+                "current": "7",
+                "max": "",
+                "_id": "-M_RpYN2R8lsEFYiY0Pu",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_humanperception",
+                "current": "6",
+                "max": "",
+                "_id": "-M_RpatXQniLMWoM0c3b",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_perception",
+                "current": "6",
+                "max": "",
+                "_id": "-M_Rpdgsmj_R9NhaWsQt",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_languages_-MZRpdtfxJCeRZp68EFE_skillname",
+                "current": "Streetslang",
+                "max": "",
+                "_id": "-M_RphJJ92P8RcDt6kt9",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_languages_-MZRpdtfxJCeRZp68EFE_skillvalue",
+                "current": "2",
+                "max": "",
+                "_id": "-M_RpiSVEeFLGE1Xp8VN",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_localexperts_-MZRpiUCAMyxKTrCnSY2_skillname",
+                "current": "Your Home",
+                "max": "",
+                "_id": "-M_RplLCwRRM_EANnSvv",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_localexperts_-MZRpiUCAMyxKTrCnSY2_skillvalue",
+                "current": "2",
+                "max": "",
+                "_id": "-M_Rpm0McE1GO6fdKx89",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_localexperts_-MZRpm9wpwVIksWl8IaP_skillname",
+                "current": "Hatian",
+                "max": "",
+                "_id": "-M_RpoMWOcltHOj0Oiq8",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_localexperts_-MZRpm9wpwVIksWl8IaP_skillvalue",
+                "current": "4",
+                "max": "",
+                "_id": "-M_RpvRIEXni4FQ-erGX",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_persuasion",
+                "current": "6",
+                "max": "",
+                "_id": "-M_Rq1I4-stk5kDtwU_4",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_bribery",
+                "current": "6",
+                "max": "",
+                "_id": "-M_Rq30W1tZYdZNQi0eN",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_composition",
+                "current": "6",
+                "max": "",
+                "_id": "-M_Rq4F5TIlepdISEMng",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_deduction",
+                "current": "6",
+                "max": "",
+                "_id": "-M_Rq5oHpR792BujC1NS",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_handgun",
+                "current": "7",
+                "max": "",
+                "_id": "-M_Rq6y4XbVNvYp7Ios6",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_librarysearch",
+                "current": "4",
+                "max": "",
+                "_id": "-M_Rq9hz9jDb7czu-2qR",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_lipreading",
+                "current": "4",
+                "max": "",
+                "_id": "-M_RqB0FPrGMCk35Uw-9",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_photographyfilm",
+                "current": "4",
+                "max": "",
+                "_id": "-M_RqC5AxhMuPkoaNQtM",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_heavyweapons",
+                "current": "2",
+                "max": "",
+                "_id": "-M_RqCVEScmdDRQSR55B",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "skill_shoulderarms",
+                "current": "2",
+                "max": "",
+                "_id": "-M_RqJOtKAzqxN64QnR4",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "armorname",
+                "current": "Light Armorjack",
+                "max": "",
+                "_id": "-M_RqbgMiBfWVccFqqEL",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "armor",
+                "current": "7",
+                "max": "11",
+                "_id": "-M_Rqc-7nuZiWsin9evv",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "armorheadname",
+                "current": "Light Armorjack",
+                "max": "",
+                "_id": "-M_Rqd6FEqWOWfW2xKdQ",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "armorhead",
+                "current": "11",
+                "max": "11",
+                "_id": "-M_RqdEboTvZix1ZoCif",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponname",
+                "current": "Gravity",
+                "max": "",
+                "_id": "-M_RqfoZjEiaMuKSYXz3",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponskill",
+                "current": "@{skill_handgun}+@{stat_ref}",
+                "max": "",
+                "_id": "-M_RqfzM_9whS16sRMGD",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_weapons_-MZRqekKkKIHtPnZ8pap_weapondamage",
+                "current": "3",
+                "max": "",
+                "_id": "-M_RqgU_VFaG1uSZwPi5",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRqvk1VUUWkngQtW3f_gear_name",
+                "current": "Agent",
+                "max": "",
+                "_id": "-M_RqwQzOzoN8lN-0jXH",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRqvk1VUUWkngQtW3f_gear_desc",
+                "current": "Personal Computer & communication device",
+                "max": "",
+                "_id": "-M_RqyX7_iEGUQ9vXW7s",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRr-HeZZZBFftVDuab_gear_name",
+                "current": "Binoculars",
+                "max": "",
+                "_id": "-M_Rr0Z4JMv7ZDsnDtwW",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRr0erFUAXr1sEGBLc_gear_name",
+                "current": "Disposable Cellphone",
+                "max": "",
+                "_id": "-M_Rr3a8eyYcCqWY5PhN",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRr0erFUAXr1sEGBLc_gear_desc",
+                "current": "2x",
+                "max": "",
+                "_id": "-M_Rr4PtSQpW2g3Hth0o",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRr6DKVOkcr3n8J8Ws_gear_name",
+                "current": "Flashlight",
+                "max": "",
+                "_id": "-M_Rr8Lvl6BhWMkr6tkE",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRr8VGWB15-2XBrvRp_gear_name",
+                "current": "Police Scanner",
+                "max": "",
+                "_id": "-M_Rr9amQoRo4lk1YjtB",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRrKmbTxKmHmtvYt0B_gear_name",
+                "current": "AV Scrambler",
+                "max": "",
+                "_id": "-M_RrOk1YVtnPy86Yha7",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRrXbeDLW69kLQYlIl_gear_name",
+                "current": "Cloths",
+                "max": "",
+                "_id": "-M_RrYDLVTKxjTFuaI1D",
+                "_type": "attribute",
+                "_characterid": "-M_RoOF0uFEfZV2YRuCa"
+            },
+            {
+                "name": "repeating_gear_-MZRrXbeDLW69kLQYlIl_gear_desc",
+                "current":"Generic Chic: Footwear,
+Bottoms, Top
+Leisurewear: Jacket
+Urbanflash: Mirrorshades","max":"","_id":"-M_Rr_Rls56x_1-1QJKz","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"speedheal","current":2,"max":"3","_id":"-M_Rryrjt9MZk_V-qGaG","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsINhDOPq8Ad2KYyc_cyberwarename","current":"Cyberaudio Suite","max":"","_id":"-M_RsJ3tOLZuZLc__dJB","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsINhDOPq8Ad2KYyc_cyberwaredesc","current":"Has 3 Option Slots. Cannot install more than 1.","max":"","_id":"-M_RsJkCGXQSEPXip5OD","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsTnte2kpaMbnFXni_cyberwarename","current":"Audio Recorder","max":"","_id":"-M_RsUewhQwLYaj17mNx","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsTnte2kpaMbnFXni_cyberwaredesc","current":"Records audio to Memory Chip or linked Agent without the other party knowing.","max":"","_id":"-M_Rsg_nOdTQSg8IWI42","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsht723OMrJ1fmHkP_cyberwarename","current":"Bug Detector","max":"","_id":"-M_RsjnMjTPqF847Okwg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MZRsht723OMrJ1fmHkP_cyberwaredesc","current":"Beeps when within 2m/yds of a listening device","max":"","_id":"-M_RtLTAKGDRpZEeJXR2","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtLnfyjZYJhQnCqpx_cyberwarename","current":"Cyberarm","max":"","_id":"-M_RtOFdmlGG3c3zVPlQ","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtLnfyjZYJhQnCqpx_cyberwaredesc","current":"Replacement arm. Has 4 Option Slots. Comes installed with Standard 
+Hand that doesn't cause Humanity Loss or take up an Option Slot","max":"","_id":"-M_RtRFXSVEPQoBaoYBz","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtVL3z0XvzGY6WtvS_cyberwarename","current":"Cord Mutual 300 Pacifier","max":"","_id":"-M_RtVoe10Z2i6hsjIHR","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRtVL3z0XvzGY6WtvS_cyberwaredesc","current":"Monofilament whip implanted in the thumb. Can be concealed. DV 13 Stealth check to decapitate an unaware character from behind.","max":"","_id":"-M_RtaHdb0xpijvXG2AP","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberfashion_-MZRv0rwkMhxt3gfgs0Z_cyberwarename","current":"EMP Threading","max":"","_id":"-M_Rv2cj1DfX-4cUQdgN","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberfashion_-MZRv0rwkMhxt3gfgs0Z_cyberwaredesc","current":"Thin silver lines that run in circuit-like patterns across the body","max":"","_id":"-M_Rv8atS6LxANf3p9eJ","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRvVVGYegUeYjK-Qlq_cyberwarename","current":"Yang Su Mark IV","max":"","_id":"-M_RvWda_pF302tYQYsd","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmleft_-MZRvVVGYegUeYjK-Qlq_cyberwaredesc","current":"Any Light, Medium, or Heavy Melee Weapon installed in a 
+Cyberarm. Weapon can be concealed even if not normally 
+concealable. Requires a Cyberarm and takes up 2 Option Slots.","max":"","_id":"-M_RvZEAukOp4FwMEQ8X","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponname","current":"Yang Su Mark IV","max":"","_id":"-M_RvfcKZ19cAtIvrrGd","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponshowmodifiers","current":"on","max":"","_id":"-M_RvfdVEAoEgCWrGLOb","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponmodifier","current":"2","max":"","_id":"-M_RvgDaYVkOB1ARC1J0","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weapondamagemod","current":"2","max":"","_id":"-M_RvgicVGH1kre8zABL","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponskill","current":"@{skill_meleeweapon
+                }+@{stat_dex
+                }","max":"","_id":"-M_RvhhGYdotCS0nofM9","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weapondamage","current":"2","max":"","_id":"-M_Rvi3-sEcufs25pXHa","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponrof","current":"2","max":"","_id":"-M_RviOWZqxwSz0I78-N","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponconcealable","current":"on","max":"","_id":"-M_RvicJVLNgdhe99Lay","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRvb88FCxdGKZiRr0k_weaponnotes","current":"Internal blade concealed in left cyberarm","max":"","_id":"-M_RvnUlUgjMP-0XllFx","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponshowmodifiers","current":"on","max":"","_id":"-M_RvnWMIH-TpudEQID8","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponmodifier","current":"2","max":"","_id":"-M_RvondV782SpDMH9Gk","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weapondamagemod","current":"1","max":"","_id":"-M_Rvoz4SYCA_Po8gALb","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponammotype","current":"","max":"","_id":"-M_Rx1ZTDLRhftJLJVO8","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"cash","current":"495","max":"","_id":"-M_YbGnx7WRCvt6hzz7_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"ip","current":"10","max":"","_id":"-M_YbJkhNNb1nd3G55id","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"hidemodifiers","current":"0","max":"","_id":"-M_cDtTCmRVhBobfvWcO","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"initiativemodifier","current":"0","max":"","_id":"-M_cEA65QFlT0voc_bjE","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_tracking","current":"2","max":"","_id":"-MaBHAA61c3Ibblc3tA9","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_resisttorturedrugs","current":"2","max":"","_id":"-MaBHB6x4qK4hKWvKz3z","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_landvehicle","current":"1","max":"","_id":"-MaBHD6OjzKiWLdE1RJv","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_interrogation","current":"1","max":"","_id":"-MaBHGTf735IaNtOMdTf","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_meleeweapon","current":"4","max":"","_id":"-MaBHIl8OQv2iAiHQOCO","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_cybertech","current":"1","max":"","_id":"-MaBHLz4GqWl2jDfatQ_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberaudio_-MakV10sIwHrG0i-cBLF_cyberwarename","current":"Internal Agent","max":"","_id":"-MakV2BPhvVI-pms6fTB","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"nightorlowlight","current":"0","max":"","_id":"-Me7gTDj7RXdETDs2aJg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"neverdonebefore","current":"0","max":"","_id":"-Me7gTDlIwMUUmbAKFmg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"complextask","current":"0","max":"","_id":"-Me7gTDoMV34MuJnf3ZN","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"wrongtoolsorparts","current":"0","max":"","_id":"-Me7gTDpANIG_QCEkipT","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"understress","current":"0","max":"","_id":"-Me7gTDr0wsityjfxHEp","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"drunkdrugged","current":"0","max":"","_id":"-Me7gTDt_YpxXgVJhbtA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"secretly","current":"0","max":"","_id":"-Me7gTDvNcmqK4n5994f","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"obscured","current":"0","max":"","_id":"-Me7gTDxV4eTvgBNBkjm","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lostfacedown","current":"0","max":"","_id":"-Me7gTE2nZ8XEaOE1fR6","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"complimentaryskill","current":"0","max":"","_id":"-Me7gTE5f6NiwzKqrkdp","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"extratime","current":"0","max":"","_id":"-Me7gTE8pHRkSa8QuHmr","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"aimedshot","current":"0","max":"","_id":"-Me7gTEA8hbl3iZGKlT2","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"luckmod","current":"0","max":"","_id":"-Me7gTEDk5tibxuA03D_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"custommod","current":"0","max":"","_id":"-Me7gTEFCLPjfxXroukT","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lp_lifegoals","current":"Revenge - check
+Income - working on it
+Rep - working on it","max":"","_id":"-Me8AECPzvF8QBgO95AK","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lp_personality","current":"Independent, Aggressive","max":"","_id":"-Me8AIdq7mOvNPRJUND6","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"lp_media","current":"Somebody killed my crew.  Same somebody is taking kibble out of my mouth.  Will. not. stand.","max":"","_id":"-Me8A_U0aQzVo2q9FHd1","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_ammo_-Me8Mn6c5J0OHvSQOD0Y_ammoname","current":"Smoke Grenade","max":"","_id":"-Me8Mq68aqZ0YyfCjKo2","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_ammo_-Me8Mn6c5J0OHvSQOD0Y_ammoquantity","current":"1","max":"","_id":"-Me8MqsjHNavp1UyHUG_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponname","current":"Smoke Grenade","max":"","_id":"-MeST0yUL84gL2OTUqeA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponskill","current":"@{skill_athletics
+                }+@{stat_dex
+                }","max":"","_id":"-MeST1EN6mlU0lzmWNMI","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponmagazine","current":"1","max":"","_id":"-MeST2Grm1Qx7sF3OSg_","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MeST-v5wLwmxPJFVwft_weaponnotes","current":"No Damage. Creates a 5x5 area where no line of sight can be drawn through or inside.
+
+Lasts 3 rounds","max":"","_id":"-MeSTEmjZSH0l07LrI8Q","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSTgOeZEieEyAN2qCy_gear_name","current":"Hard Drive","max":"","_id":"-MeSTiIDjTsDOTuVnBnT","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSTgOeZEieEyAN2qCy_gear_desc","current":"1x taken from Jayde Wellington's basement","max":"","_id":"-MeSTl8Gw-7CCj_BFbE9","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSU0ZWiZ8zisItFeWD_gear_name","current":"Neck Chip","max":"","_id":"-MeSU1IiZi0q5uX0mzOA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-MeSU0ZWiZ8zisItFeWD_gear_desc","current":"Taken from Null-G. Has a silver Ankh symbol ending in a dagger","max":"","_id":"-MeSU752NglJwHcPYKrH","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_brawling","current":"3","max":"","_id":"-MfAldtLFsxvgZWcyh_j","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"skill_tactics","current":"1","max":"","_id":"-MfAli43IW1bWAcP4Tfg","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponrof","current":"2","max":"","_id":"-MfosM1SFMY80KFp8KtC","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponnotes","current":" On Hit: target takes 1 point of damage directly to their HP and armor regardless of if the damage roll ablated the target's armor. 
+","max":"","_id":"-MfosX88dqOSocAwDz_T","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-Mfp2aDZsjLFqTHjmXun_gear_name","current":"Synthcoke","max":"","_id":"-Mfp2b3gEYfP4S6Srr30","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_gear_-Mfp2cEDrzzbi5JAKeN6_gear_name","current":"Black Lace Airhypo","max":"","_id":"-Mfp2dd_SouPokxKXs9I","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponname","current":"Flashbang","max":"","_id":"-Mfp2kc21ugjPrdVl50n","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponskill","current":"@{skill_athletics
+                }+@{stat_dex
+                }","max":"","_id":"-Mfp2lDjPZDXoxDOJW_6","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponmagazine","current":"1","max":"","_id":"-MgCg7v52D3YPTA3LMTF","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-Mfp2jqHJ7WMBLLzSQrj_weaponnotes","current":"Hits in a 5x5 area centered on the thrown destination. Anyone in the area, friendly or not, must made a DV15 Resist Torture/Drugs check or suffer -2 to Ranged Attacks and Perception checks.
+","max":"","_id":"-MgCgEURVduNXdmI3jNA","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_cyberarmright_-MgCkUSm1h5DOWb6JESD_cyberwarename","current":"Subdermal Grip","max":"","_id":"-MgCkVnWnZs5896hptMo","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponautofire","current":"on","max":"","_id":"-MgCkxwrjDZ1kGV_zbBY","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"repeating_weapons_-MZRqekKkKIHtPnZ8pap_weaponsuppress","current":"on","max":"","_id":"-MgCkyhAMDVBQkBHdmJC","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"},{"name":"hero","current":"1","max":"1","_id":"-MiwJNlFc_jKFJztamQa","_type":"attribute","_characterid":"-M_RoOF0uFEfZV2YRuCa"}]
