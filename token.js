@@ -37,4 +37,29 @@ class Token {
     get isHero () { return this.#isHero; }
 
     get name () { return this.#name; }
+
+    get x () { return Math.ceil(this.#graphic.get("left")/70); }
+    get y () { return Math.ceil(this.#graphic.get("top")/70); }
+
+    /**
+     * @param {Token} otherToken
+     */
+    calculateDistance  (otherToken) {
+        // https://app.roll20.net/forum/post/972389/feature-request-api-ruler-distance#post-972547
+
+        const distX = Math.abs(this.x - otherToken.x);
+        const distY = Math.abs(this.y- otherToken.y);
+        const distance = Math.sqrt(distX * distX + distY * distY);
+
+        const page = getObj('page', this.#graphic.get('pageid'));
+        const gridUnitSize = page.get('snapping_increment'); // units per grid square
+        const unitScale = page.get('scale_number'); // scale for 1 unit, eg 1 unit = 5ft
+        const unit = page.get('scale_unit'); // unit, eg ft or km
+
+        return {
+            distance: distance, // Distance between token1 and token2 in units
+            squares: distance / gridUnitSize, // Distance between token1 and token2 in squares
+            measurement: '' + (unitScale * distance / gridUnitSize) + unit // Ruler measurement as a string
+        };
+    }
 }
