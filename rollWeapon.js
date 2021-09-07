@@ -1,0 +1,1 @@
+function rollWeapon (playerToken, targetToken, weaponName) {}
